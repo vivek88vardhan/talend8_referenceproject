@@ -2,26 +2,30 @@
   <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_dg7lIDtVEe2gKoZ2SkI_iQ">
     <contextParameter comment="" name="connection_snowflake_hostname" prompt="connection_snowflake_hostname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_dg7lITtVEe2gKoZ2SkI_iQ"/>
     <contextParameter comment="" name="connection_snowflake_port" prompt="connection_snowflake_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_dg7lIjtVEe2gKoZ2SkI_iQ"/>
+    <contextParameter comment="" name="connection_snowflake_password" prompt="connection_snowflake_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_LAm9MDtYEe2IypR2yu7k4Q"/>
   </talendfile:ContextType>
   <talendfile:ContextType confirmationNeeded="false" name="dev" xmi:id="_dg7lIztVEe2gKoZ2SkI_iQ">
     <contextParameter comment="" name="connection_snowflake_hostname" prompt="connection_snowflake_hostname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="snfdev" xmi:id="_dg7lJDtVEe2gKoZ2SkI_iQ"/>
     <contextParameter comment="" name="connection_snowflake_port" prompt="connection_snowflake_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3006" xmi:id="_dg7lJTtVEe2gKoZ2SkI_iQ"/>
+    <contextParameter comment="" name="connection_snowflake_password" prompt="connection_snowflake_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_LAm9MTtYEe2IypR2yu7k4Q"/>
   </talendfile:ContextType>
   <talendfile:ContextType confirmationNeeded="false" name="prod" xmi:id="_dg7lJjtVEe2gKoZ2SkI_iQ">
     <contextParameter comment="" name="connection_snowflake_hostname" prompt="connection_snowflake_hostname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="snfprod" xmi:id="_dg7lJztVEe2gKoZ2SkI_iQ"/>
     <contextParameter comment="" name="connection_snowflake_port" prompt="connection_snowflake_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="443" xmi:id="_dg7lKDtVEe2gKoZ2SkI_iQ"/>
+    <contextParameter comment="" name="connection_snowflake_password" prompt="connection_snowflake_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_LAnkQDtYEe2IypR2yu7k4Q"/>
   </talendfile:ContextType>
   <talendfile:ContextType confirmationNeeded="false" name="sit" xmi:id="_dg7lKTtVEe2gKoZ2SkI_iQ">
     <contextParameter comment="" name="connection_snowflake_hostname" prompt="connection_snowflake_hostname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="snfsit" xmi:id="_dg7lKjtVEe2gKoZ2SkI_iQ"/>
     <contextParameter comment="" name="connection_snowflake_port" prompt="connection_snowflake_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="8443" xmi:id="_dg7lKztVEe2gKoZ2SkI_iQ"/>
+    <contextParameter comment="" name="connection_snowflake_password" prompt="connection_snowflake_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_LAnkQTtYEe2IypR2yu7k4Q"/>
   </talendfile:ContextType>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_8fba464d-a5b4-477d-be54-d84fa58288d2"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>waoh/GJzexbv+51rA0/zxbwlZIConupDCACN+j1BKPnheZgkrjvEhDkpOKJixo7vx7Xp70fXZ9/p&#13;
-wCfxR07cIw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_e8773129-b24d-48d9-88e7-6dd37e505963"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>oBhnenHHEabJbl/EShd7x/NnXMpe8EMjFKRuuE+4DXIq2L7XvOKHBIMt71Jjb53j8U1SvCCVJLEx&#13;
-gHx6y3nHwg==</DigestValue></Reference></SignedInfo><SignatureValue>OZ3cErYaV1gXiHM+CBQ94ZfYI7ziQ8IfPF/ak7guWc49hNAah3hyspUFTGgJAv3sB4vYduvhuo7C&#13;
-/5hwclNAGzrYXhpWLjUt2hKKJ46/SPSq1cWAreZnskI5wH+3nRpXYyS8+0bT9JIkdjPt6fDpB+VF&#13;
-cHPUfmF3cqcS4AGK2GWmERu1VX3oruUZaZ3O43Cib/VOEnzJ18bxLagZlLX1OTPZ3WCyM7VCcTPZ&#13;
-byb46Tx6Fq2Bef6AQPG9CpSoxMLjkYlPwHtOZLdyFgOJFa/lbgpVXLjR9Mg56Uh7Kymsoyr0gxV3&#13;
-WUIcyGK/SvHI0p78XHbasn2j11meQGL4H6rykA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_71f6001c-6929-4e80-ac5d-a3482b74e738"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>3wxzp0Zcc8QLFb4RfebDED33rwzQRIu5vSqzgQzNWrMZa0gMveaK4StlUP0szqMNEyQIekaG3ddr&#13;
+pfCRBb2OXw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_5a69bb13-692e-4ba0-90de-34b1861bcca9"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>gVsBmAtVvPx4C+iGwdagGckyYhigiQrGXpYUqMOj+3xnEe99nhfaCMH/MZUqzdXorIPOTweisED9&#13;
+/ZY1a8NAcA==</DigestValue></Reference></SignedInfo><SignatureValue>Id1etBuyfKC0h5nk/6y1pb9UK8HBpg+OBOBXbqAlhDx/xL2STlE15dwe7vo8HhxZY41JIHE8xZcT&#13;
+nmju1Mc2arfSJv7jnA5L215DE+wyQukll10gCoj6m5OMOOjZSPqPGGYegWjTMwMDc2Ns3ThcExzg&#13;
+dtvDvd8SBju3NMk8/7Nzxl5CapYkhVkz9mSW6R79qBumInPQs/5bxvszc7oU8hwRx2/DEfXXlHBs&#13;
+WJ725JSlOPqnDHwWJEm6sosevhn8cWvtn5UZalfqEi8oXODU145u9+dUT2QAIDii1opUUgf9Nukf&#13;
+0yc2z/gZpvau1CsOUKc7bpCLL4Jk0i/RtaMI2w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -43,4 +47,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_e8773129-b24d-48d9-88e7-6dd37e505963" Target="#_8fba464d-a5b4-477d-be54-d84fa58288d2"><Timestamp>2022-09-23 15:36:15</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_5a69bb13-692e-4ba0-90de-34b1861bcca9" Target="#_71f6001c-6929-4e80-ac5d-a3482b74e738"><Timestamp>2022-09-23 15:55:44</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
